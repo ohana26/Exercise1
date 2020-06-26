@@ -1,0 +1,38 @@
+
+.exercise-timeline{
+  background: #b4699b;
+}
+ .exercise-timeline ul {
+    list-style-type: none;
+    position: relative;
+    background: #d5dfd4;
+
+  }
+  .exercise-timeline ul.timeline:before {
+    content: " ";
+    background: #d5dfd4;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+  }
+  .exercise-timeline ul.timeline > .timeline-marker,
+  .exercise-timeline .timeline-inline {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  .exercise-timeline ul.timeline > .timeline-marker:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #f3bb45;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+
