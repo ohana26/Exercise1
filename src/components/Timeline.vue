@@ -43,7 +43,6 @@ export default {
   methods: {
     populateComponentWithData() {
       let tempData = [];
-      console.log(this.days)
       for (let i = 0; i < 0 + this.days; i++) {
         tempData.push(this.days);
       }
